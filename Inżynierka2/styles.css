@@ -1,0 +1,91 @@
+﻿
+html {
+    background-color: #04c3ff;
+}
+
+body {
+    background-color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 1em;
+}
+
+h1 {
+    color: cadetblue;
+}
+
+h3.question {
+    font-size: 2em;
+}
+
+.info {
+    font-size: 1.5em;
+}
+
+
+
+input[type="radio"]{
+	display: none;
+} 
+
+.label {
+  color: black; 
+  padding: 25px; 
+  font-family: Arial;
+}
+.zdecydowaniez {background-color: green;} 
+.zgadzam {background-color: white;} 
+.neutralne {background-color: white;} 
+.nie {background-color: white;}
+.zdecydowanienie {background-color: white; color: black;} 
+.niewidzialne { border: 0px solid; padding: 10px; cursor: default;}
+
+
+label{
+
+	
+	font-size: 1px;  
+	border: 2px solid; 
+	border-radius: 360px;  
+	padding: 10px 10px;   
+	
+
+	
+	cursor: pointer; 
+*/}
+
+
+
+input[type="radio"]:checked + label{
+	
+	color:black; 
+	background-image: url("redx.png"); 
+	
+}
+
+
+.answer {
+    background-color: #df691a;
+    color: white;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+    cursor: pointer;
+    width: 60%;
+    font-size: 1.5em;
+    margin: 10px auto 0;
+}
+
+    .answer:hover {
+        background-color: orange;
+    }
+
+    .answer.selected {
+        background-color: cadetblue;
+    }
+
+
